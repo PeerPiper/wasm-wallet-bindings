@@ -46,3 +46,9 @@ public_key: ƒ public_key()
 sign: ƒ sign(secret_key_bytes, message)
 verify: ƒ verify(public_key, message, signature)
 ```
+
+## Dev Notes
+
+TODO: Fix new URL issue.
+
+The `fix-new-urls` script is supposed to remove `input = new URL('index_bg.wasm', import.meta.url);`, and it used to work fine, but for some reason it's broken now.
