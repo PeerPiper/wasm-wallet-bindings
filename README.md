@@ -31,8 +31,9 @@ console.log({ wallet }) // shows you all the functions and objects in the consol
 pubKey = wallet.public_key()
 ```
 
-TODO as API is in flux.
+## API is in flux.
 
+```
 Proxcryptor: class Proxcryptor
 SimpleKeypair: class SimpleKeypair
 
@@ -44,3 +45,4 @@ greet: ƒ greet()
 public_key: ƒ public_key()
 sign: ƒ sign(secret_key_bytes, message)
 verify: ƒ verify(public_key, message, signature)
+```
