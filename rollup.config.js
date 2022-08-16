@@ -7,6 +7,7 @@ import css from "rollup-plugin-css-only"
 // import livereload from "rollup-plugin-livereload"
 import typescript from "@rollup/plugin-typescript"
 import sveltePreprocess from "svelte-preprocess"
+import { terser } from "rollup-plugin-terser"
 
 // import nodePolyfills from 'rollup-plugin-node-polyfills'
 const inlineDynamicImports = true
@@ -70,6 +71,7 @@ export default [
                 preprocess: sveltePreprocess(), // for the typescript
             }),
             css({ output: "bundle.css" }),
+            terser(),
         ],
     },
     // {
