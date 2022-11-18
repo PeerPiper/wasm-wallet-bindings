@@ -71,7 +71,7 @@ export default [
                 preprocess: sveltePreprocess(), // for the typescript
             }),
             css({ output: "bundle.css" }),
-            terser(),
+            // terser(),
         ],
     },
     // {
