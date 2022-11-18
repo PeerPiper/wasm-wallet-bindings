@@ -1,4 +1,5 @@
 // https://github.com/lencx/vite-plugin-rsw/issues/23#issuecomment-934974157
+// fixed? https://github.com/vitejs/vite/pull/7306
 
 import { readFileSync, writeFileSync } from "fs"
 import path from "path"
