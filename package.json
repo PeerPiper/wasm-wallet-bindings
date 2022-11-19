@@ -1,6 +1,6 @@
 {
     "name": "@peerpiper/wasm-wallet-bindings",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "svelte": "dist/index.mjs",
